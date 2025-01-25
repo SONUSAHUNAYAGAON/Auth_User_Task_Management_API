@@ -4,7 +4,8 @@
   "description": "This is task management api for create user and specific user assigned task crud operation",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+      "start": "node index.js", // Production ke liye
+    "dev": "nodemon index.js" // Development ke liye
   },
   "keywords": [],
   "author": "",
